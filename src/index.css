@@ -8,14 +8,12 @@ body{
 
 .Weather-container{
   text-align: center;
+  justify-content: center;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.weather-box{
-  
-}
 
 .report-container{
   display: flex;
@@ -80,11 +78,15 @@ body{
 
   .weather-box button{
     border-radius: 10px;
-    width: 50%;
+    width: 65%;
   }
 
   .weather-box input{
-    width: 47%;
+    width: 60%;
     outline: none;
+  }
+
+  .report-one,.report-two,.report-three{
+    width: 60%;
   }
 }
